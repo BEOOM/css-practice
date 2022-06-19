@@ -12,6 +12,10 @@ const Main = () => {
             <P>IsometricMenu Hover Effect</P>
             <Img src="./CoverImage/IsometricHover.png" />
           </Card>
+          <Card onClick={() => navigate('/InputField')}>
+            <P>InputField Text Animation</P>
+            <Img src="./CoverImage/InputField.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
@@ -33,7 +37,6 @@ const Img = styled.img`
   width: 200px;
   height: 200px;
   border: none;
-  overflow: visible;
 `;
 
 const Page = styled.body`
