@@ -16,6 +16,10 @@ const Main = () => {
             <P>InputField Text Animation</P>
             <Img src="./CoverImage/InputField.png" />
           </Card>
+          <Card onClick={() => navigate('/BackgroundEffect')}>
+            <P>Background Effect</P>
+            <Img src="./CoverImage/BackgroundEffect.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
