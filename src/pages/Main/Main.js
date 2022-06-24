@@ -20,6 +20,10 @@ const Main = () => {
             <P>Background Effect</P>
             <Img src="./CoverImage/BackgroundEffect.png" />
           </Card>
+          <Card onClick={() => navigate('/GlowingButton')}>
+            <P>Glowing Button Hover Effect</P>
+            <Img src="./CoverImage/GlowingButton.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
