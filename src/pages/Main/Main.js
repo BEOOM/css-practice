@@ -24,6 +24,10 @@ const Main = () => {
             <P>Glowing Button Hover Effect</P>
             <Img src="./CoverImage/GlowingButton.png" />
           </Card>
+          <Card onClick={() => navigate('/LiquidLoader')}>
+            <P>Liquid Loading effect</P>
+            <Img src="./CoverImage/GlowingButton.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>

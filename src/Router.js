@@ -5,6 +5,7 @@ import Main from './pages/Main/Main';
 import InputField from './pages/InputFieldAnimation/InputField';
 import BackgroundEffect from './pages/BackgroundEffect/BackgroundEffect';
 import GlowingButton from './pages/GlowingButton/GlowingButton';
+import LiquidLoader from './pages/LiquidLoader/LiquidLoader';
 
 const Router = () => {
   //
@@ -16,6 +17,7 @@ const Router = () => {
         <Route path="/inputfield" element={<InputField />} />
         <Route path="/BackgroundEffect" element={<BackgroundEffect />} />
         <Route path="/GlowingButton" element={<GlowingButton />} />
+        <Route path="/LiquidLoader" element={<LiquidLoader />} />
       </Routes>
     </BrowserRouter>
   );

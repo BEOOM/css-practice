@@ -9,3 +9,8 @@
 
 <h4> Background Effect</h4>
 <img width="600" alt="Screen Shot 2022-06-21 at 11 43 11" src="https://user-images.githubusercontent.com/100202039/174705778-8368bdc4-9794-4e47-896b-7efdd2c069c1.png">
+
+
+<h4> Liquid Loader</h4>
+<img width="600" alt="Screen Shot 2022-06-21 at 11 43 11" src="https://user-images.githubusercontent.com/100202039/174705778-8368bdc4-9794-4e47-896b-7efdd2c069c1.png">
+
