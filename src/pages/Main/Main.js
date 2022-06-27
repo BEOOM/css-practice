@@ -26,7 +26,11 @@ const Main = () => {
           </Card>
           <Card onClick={() => navigate('/LiquidLoader')}>
             <P>Liquid Loading effect</P>
-            <Img src="./CoverImage/GlowingButton.png" />
+            <Img src="./CoverImage/LiquidLoader.png" />
+          </Card>
+          <Card onClick={() => navigate('/AnimatedProgress')}>
+            <P>Animated Circular Progress Bar</P>
+            <Img src="./CoverImage/AnimatedProgress.png" />
           </Card>
         </CardWrapper>
       </Container>

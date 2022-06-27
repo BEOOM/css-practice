@@ -42,11 +42,11 @@
   height: 100px;
   background: #fff;
   border-radius: 50%;
-  animation: animate 5s ease-in-out infinite;
+  animation: whirl 5s ease-in-out infinite;
   animation-delay: calc(0.15s * var(--i));
 }
 
-@keyframes animate {
+@keyframes whirl {
   0%,
   10% {
     width: 100px;
