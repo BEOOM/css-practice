@@ -20,3 +20,6 @@
 <h4>Progrss Bar</h4>
 <img width="1041" height="300" alt="Screen Shot 2022-06-27 at 16 14 45" src="https://user-images.githubusercontent.com/100202039/175881314-593c2122-3a31-46f1-bafe-b228ffb6529e.png">
 
+<h4>Custom Shape Button Hover Effect</h4>
+<img width="600" height="300" alt="Screen Shot 2022-06-28 at 15 18 06" src="https://user-images.githubusercontent.com/100202039/176107233-78dc4e3e-6353-4446-b4f4-1b2e8e68972b.png">
+
