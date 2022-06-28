@@ -32,6 +32,10 @@ const Main = () => {
             <P>Animated Circular Progress Bar</P>
             <Img src="./CoverImage/AnimatedProgress.png" />
           </Card>
+          <Card onClick={() => navigate('/ShapeButton')}>
+            <P>Custom Shape Button</P>
+            <Img src="./CoverImage/ShapeButton.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>

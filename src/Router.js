@@ -7,6 +7,7 @@ import BackgroundEffect from './pages/BackgroundEffect/BackgroundEffect';
 import GlowingButton from './pages/GlowingButton/GlowingButton';
 import LiquidLoader from './pages/LiquidLoader/LiquidLoader';
 import AnimatedProgress from './pages/AnimatedProgress/AnimatedProgress';
+import ShapeButton from './pages/ShapeButton/ShapeButton';
 
 const Router = () => {
   //
@@ -20,6 +21,7 @@ const Router = () => {
         <Route path="/GlowingButton" element={<GlowingButton />} />
         <Route path="/LiquidLoader" element={<LiquidLoader />} />
         <Route path="/AnimatedProgress" element={<AnimatedProgress />} />
+        <Route path="/ShapeButton" element={<ShapeButton />} />
       </Routes>
     </BrowserRouter>
   );
