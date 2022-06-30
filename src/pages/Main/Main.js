@@ -36,6 +36,10 @@ const Main = () => {
             <P>Custom Shape Button</P>
             <Img src="./CoverImage/ShapeButton.png" />
           </Card>
+          <Card onClick={() => navigate('/RainyCloudy')}>
+            <P>Rainy Cloud Effect</P>
+            <Img src="./CoverImage/RainyCloud.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
