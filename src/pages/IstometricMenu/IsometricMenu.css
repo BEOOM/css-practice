@@ -5,18 +5,18 @@
   box-sizing: border-box;
   font-family: 'Oswald', sans-serif;
 }
-.IsomerticContainer {
+.IsometricContainer {
   display: flex;
   justify-content: center;
   align-items: center;
   min-height: 100vh;
   background: #434750;
 }
-ul {
+.IsometricUl {
   position: relative;
   transform: skewY(-15deg);
 }
-ul li {
+.IsometricUl .IsometricLi {
   position: relative;
   list-style: none;
   width: 200px;
@@ -25,11 +25,11 @@ ul li {
   z-index: var(--i);
   transition: 0.5s;
 }
-ul li:hover {
+.IsometricUl .IsometricLi:hover {
   background: #33a3ee;
   transform: translateX(50px);
 }
-ul li::before {
+.IsometricUl .IsometricLi::before {
   content: '';
   position: absolute;
   top: 0;
@@ -41,10 +41,10 @@ ul li::before {
   transform: skewY(45deg);
   transition: 0.5s;
 }
-ul li:hover::before {
+.IsometricUl .IsometricLi:hover::before {
   background: #1f5378;
 }
-ul li::after {
+.IsometricUl .IsometricLi::after {
   content: '';
   position: absolute;
   top: -40px;
@@ -56,10 +56,10 @@ ul li::after {
   transform: skewx(45deg);
   transition: 0.5s;
 }
-ul li:hover::after {
+.IsometricUl .IsometricLi:hover::after {
   background: #2982b9;
 }
-ul li a {
+.IsometricUl .IsometricLi a {
   text-decoration: none;
   color: #999;
   display: block;
@@ -68,9 +68,9 @@ ul li a {
   transition: 0.5s;
 }
 
-ul li:hover a {
+.IsometricUl .IsometricLi:hover a {
   color: #fff;
 }
-ul li:last-child::after {
+.IsometricUl .IsometricLi:last-child::after {
   box-shadow: -100px 120px 20px rgba(0, 0, 0, 0.25);
 }

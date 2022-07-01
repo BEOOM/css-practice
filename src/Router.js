@@ -9,6 +9,7 @@ import LiquidLoader from './pages/LiquidLoader/LiquidLoader';
 import AnimatedProgress from './pages/AnimatedProgress/AnimatedProgress';
 import ShapeButton from './pages/ShapeButton/ShapeButton';
 import RainyCloudy from './pages/RainyCloudy/RainyCloudy';
+import TextAnimation from './pages/TextAnimation/TextAnimation';
 
 const Router = () => {
   //
@@ -24,6 +25,7 @@ const Router = () => {
         <Route path="/AnimatedProgress" element={<AnimatedProgress />} />
         <Route path="/ShapeButton" element={<ShapeButton />} />
         <Route path="/RainyCloudy" element={<RainyCloudy />} />
+        <Route path="/TextAnimation" element={<TextAnimation />} />
       </Routes>
     </BrowserRouter>
   );

@@ -40,6 +40,10 @@ const Main = () => {
             <P>Rainy Cloud Effect</P>
             <Img src="./CoverImage/RainyCloud.png" />
           </Card>
+          <Card onClick={() => navigate('/TextAnimation')}>
+            <P>3D Text Animation</P>
+            <Img src="./CoverImage/TextAnimation.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
