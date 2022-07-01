@@ -23,3 +23,9 @@
 <h4>Custom Shape Button Hover Effect</h4>
 <img width="600" height="300" alt="Screen Shot 2022-06-28 at 15 18 06" src="https://user-images.githubusercontent.com/100202039/176107233-78dc4e3e-6353-4446-b4f4-1b2e8e68972b.png">
 
+<h4>Rainy Cloud Effect</h4>
+<img width="600" alt="Screen Shot 2022-06-30 at 20 54 38" src="https://user-images.githubusercontent.com/100202039/176816644-0a1f61c9-d0a0-497e-9cfe-259c92ec8aad.png">
+
+<h4>3D Text Animation</h4>
+<img width="600" alt="Screen Shot 2022-07-01 at 12 13 51" src="https://user-images.githubusercontent.com/100202039/176816678-5be5fb62-d646-40eb-a300-1300a15bdec0.png">
+
