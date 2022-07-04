@@ -48,12 +48,12 @@
   background-color: #fff;
   margin: 0 2px;
   border-radius: 50%;
-  animation: animate 5s linear infinite;
+  animation: rain 5s linear infinite;
   animation-duration: calc(15s / var(--i));
   transform-origin: bottom;
 }
 
-@keyframes animate {
+@keyframes rain {
   0% {
     transform: translateY(0) scale(1);
   }

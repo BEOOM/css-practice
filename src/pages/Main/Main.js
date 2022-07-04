@@ -44,6 +44,10 @@ const Main = () => {
             <P>3D Text Animation</P>
             <Img src="./CoverImage/TextAnimation.png" />
           </Card>
+          <Card onClick={() => navigate('/CardHover')}>
+            <P>Product Card Hover Effect</P>
+            <Img src="./CoverImage/CardHover.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>

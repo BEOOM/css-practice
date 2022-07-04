@@ -5,7 +5,7 @@ const AnimatedProgress = () => {
   return (
     <div className="ProgressBody">
       <div className="ProgressContainer">
-        <div className="card">
+        <div className="progresscard">
           <div className="percent" style={{ '--clr': '#04fc43', '--num': 85 }}>
             <div className="dot"></div>
             <svg>
@@ -20,7 +20,7 @@ const AnimatedProgress = () => {
             </div>
           </div>
         </div>
-        <div className="card">
+        <div className="progresscard">
           <div className="percent" style={{ '--clr': '#fee800', '--num': 75 }}>
             <div className="dot"></div>
             <svg>
@@ -35,7 +35,7 @@ const AnimatedProgress = () => {
             </div>
           </div>
         </div>
-        <div className="card">
+        <div className="progresscard">
           <div className="percent" style={{ '--clr': '#ff00be', '--num': 35 }}>
             <div className="dot"></div>
             <svg>
@@ -50,7 +50,7 @@ const AnimatedProgress = () => {
             </div>
           </div>
         </div>
-        <div className="card">
+        <div className="progresscard">
           <div className="percent" style={{ '--clr': '#06ccff', '--num': 15 }}>
             <div className="dot"></div>
             <svg>

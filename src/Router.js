@@ -10,6 +10,7 @@ import AnimatedProgress from './pages/AnimatedProgress/AnimatedProgress';
 import ShapeButton from './pages/ShapeButton/ShapeButton';
 import RainyCloudy from './pages/RainyCloudy/RainyCloudy';
 import TextAnimation from './pages/TextAnimation/TextAnimation';
+import CardHover from './pages/CardHover/CardHover';
 
 const Router = () => {
   //
@@ -26,6 +27,7 @@ const Router = () => {
         <Route path="/ShapeButton" element={<ShapeButton />} />
         <Route path="/RainyCloudy" element={<RainyCloudy />} />
         <Route path="/TextAnimation" element={<TextAnimation />} />
+        <Route path="/CardHover" element={<CardHover />} />
       </Routes>
     </BrowserRouter>
   );
