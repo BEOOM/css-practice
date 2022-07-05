@@ -10,6 +10,7 @@ import AnimatedProgress from './pages/AnimatedProgress/AnimatedProgress';
 import ShapeButton from './pages/ShapeButton/ShapeButton';
 import RainyCloudy from './pages/RainyCloudy/RainyCloudy';
 import TextAnimation from './pages/TextAnimation/TextAnimation';
+import ResponsiveSite from './pages/ResponsiveSite/ResponsiveSite';
 import CardHover from './pages/CardHover/CardHover';
 
 const Router = () => {
@@ -28,6 +29,7 @@ const Router = () => {
         <Route path="/RainyCloudy" element={<RainyCloudy />} />
         <Route path="/TextAnimation" element={<TextAnimation />} />
         <Route path="/CardHover" element={<CardHover />} />
+        <Route path="/ResponsiveSite" element={<ResponsiveSite />} />
       </Routes>
     </BrowserRouter>
   );

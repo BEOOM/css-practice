@@ -48,6 +48,10 @@ const Main = () => {
             <P>Product Card Hover Effect</P>
             <Img src="./CoverImage/CardHover.png" />
           </Card>
+          <Card onClick={() => navigate('/ResponsiveSite')}>
+            <P>Responsive Website</P>
+            <Img src="./CoverImage/ResponsiveSite.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
