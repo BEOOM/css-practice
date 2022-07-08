@@ -12,6 +12,7 @@ import RainyCloudy from './pages/RainyCloudy/RainyCloudy';
 import TextAnimation from './pages/TextAnimation/TextAnimation';
 import ResponsiveSite from './pages/ResponsiveSite/ResponsiveSite';
 import CardHover from './pages/CardHover/CardHover';
+import FlipProductCard from './pages/FlipProductCard/FlipProductCard';
 
 const Router = () => {
   //
@@ -30,6 +31,7 @@ const Router = () => {
         <Route path="/TextAnimation" element={<TextAnimation />} />
         <Route path="/CardHover" element={<CardHover />} />
         <Route path="/ResponsiveSite" element={<ResponsiveSite />} />
+        <Route path="/FlipProductCard" element={<FlipProductCard />} />
       </Routes>
     </BrowserRouter>
   );

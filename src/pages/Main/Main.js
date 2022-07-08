@@ -52,6 +52,10 @@ const Main = () => {
             <P>Responsive Website</P>
             <Img src="./CoverImage/ResponsiveSite.png" />
           </Card>
+          <Card onClick={() => navigate('/FlipProductCard')}>
+            <P>3D Flip Product Card Hover Effect</P>
+            <Img src="./CoverImage/ResponsiveSite.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
