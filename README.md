@@ -40,6 +40,6 @@
 
 
 <h4>Icon Hover Effect</h4>
-<img width="400" alt="Screen Shot 2022-07-19 at 12 01 48" src="https://user-images.githubusercontent.com/100202039/179655441-f01a741d-ca6c-454f-944e-0b99044fba09.png">
+<img width="600" alt="Screen Shot 2022-07-19 at 12 01 48" src="https://user-images.githubusercontent.com/100202039/179655441-f01a741d-ca6c-454f-944e-0b99044fba09.png">
 
 
