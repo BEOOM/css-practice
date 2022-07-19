@@ -54,7 +54,11 @@ const Main = () => {
           </Card>
           <Card onClick={() => navigate('/FlipProductCard')}>
             <P>3D Flip Product Card Hover Effect</P>
-            <Img src="./CoverImage/ResponsiveSite.png" />
+            <Img src="./CoverImage/FlipCard.png" />
+          </Card>
+          <Card onClick={() => navigate('/IconHover')}>
+            <P>Icon Hover Effect</P>
+            <Img src="./CoverImage/IconHover.png" />
           </Card>
         </CardWrapper>
       </Container>
