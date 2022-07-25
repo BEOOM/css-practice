@@ -38,8 +38,11 @@
 <h4>3D Product Card Hover Effect</h4>
 <img width="400" alt="Screen Shot 2022-07-08 at 20 15 24" src="https://user-images.githubusercontent.com/100202039/177982171-7674a693-d420-4e1a-aac4-2f5b82f5a585.png">
 
-
 <h4>Icon Hover Effect</h4>
 <img width="600" alt="Screen Shot 2022-07-19 at 12 01 48" src="https://user-images.githubusercontent.com/100202039/179655441-f01a741d-ca6c-454f-944e-0b99044fba09.png">
+
+<h4>Magic Line Hover Effect</h4>
+<img width="600" alt="Screen Shot 2022-07-25 at 20 15 16" src="https://user-images.githubusercontent.com/100202039/180766060-00fe085c-eed6-4d0d-a5f4-f71eae363dcf.png">
+
 
 
