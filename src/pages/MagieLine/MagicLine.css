@@ -1,0 +1,67 @@
+.magicLineBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.magicLineUl {
+  position: relative;
+  display: flex;
+  gap: 40px;
+}
+
+.magicLineUl .magicLineLi {
+  position: relative;
+  list-style: none;
+  width: 120px;
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #fff;
+  cursor: pointer;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.1);
+}
+
+.magicLineUl .magicLineLi .fa {
+  font-size: 6em;
+  color: transparent;
+  -webkit-text-stroke: 2px var(--clr);
+}
+
+.magicLineUl .magicLineLi::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  border-bottom: 4px solid var(--clr);
+  transition: 0.5s ease-in-out;
+  font-family: fontAwesome;
+  text-align: center;
+  line-height: 120px;
+  font-size: 6em;
+  color: var(--clr);
+  overflow: hidden;
+}
+
+.magicLineUl .magicLineLi:hover::before {
+  height: 100%;
+}
+
+.magicLineUl .magicLineLi:nth-child(1):before {
+  content: '\f099';
+}
+.magicLineUl .magicLineLi:nth-child(2):before {
+  content: '\f16d';
+}
+
+.magicLineUl .magicLineLi:nth-child(3):before {
+  content: '\f232';
+}
+
+.magicLineUl .magicLineLi:nth-child(4):before {
+  content: '\f16a';
+}

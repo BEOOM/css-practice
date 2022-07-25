@@ -60,6 +60,10 @@ const Main = () => {
             <P>Icon Hover Effect</P>
             <Img src="./CoverImage/IconHover.png" />
           </Card>
+          <Card onClick={() => navigate('/MagicLine')}>
+            <P>Magic Line Icon Hover Effect</P>
+            <Img src="./CoverImage/MagicLine.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>

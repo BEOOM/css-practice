@@ -14,6 +14,7 @@ import ResponsiveSite from './pages/ResponsiveSite/ResponsiveSite';
 import CardHover from './pages/CardHover/CardHover';
 import FlipProductCard from './pages/FlipProductCard/FlipProductCard';
 import IconHover from './pages/IconHover/IconHover';
+import MagicLine from './pages/MagieLine/MagicLine';
 
 const Router = () => {
   //
@@ -34,6 +35,7 @@ const Router = () => {
         <Route path="/ResponsiveSite" element={<ResponsiveSite />} />
         <Route path="/FlipProductCard" element={<FlipProductCard />} />
         <Route path="/IconHover" element={<IconHover />} />
+        <Route path="/MagicLine" element={<MagicLine />} />
       </Routes>
     </BrowserRouter>
   );
