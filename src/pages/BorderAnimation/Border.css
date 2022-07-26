@@ -1,0 +1,72 @@
+.borderBody {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  background: #0c1022;
+}
+
+.borderBox {
+  position: relative;
+  width: 300px;
+  height: 400px;
+  background: rgba(0, 0, 0, 0.75);
+  border-radius: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: hidden;
+}
+
+.borderBox::after {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #d400d4
+  );
+  animation: border 4s linear infinite;
+  animation-delay: -2s;
+}
+
+.borderBox::before {
+  content: '';
+  position: absolute;
+  width: 500px;
+  height: 500px;
+  background-image: conic-gradient(
+    transparent,
+    transparent,
+    transparent,
+    #00ccff
+  );
+  animation: border 4s linear infinite;
+}
+
+@keyframes border {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+.borderBox .borderSpan {
+  position: absolute;
+  inset: 5px;
+  background: #0c1022;
+  border-radius: 16px;
+  z-index: 1;
+}
+
+.borderBox .borderH2 {
+  position: relative;
+  z-index: 2;
+  color: #fff;
+  font-size: 10em;
+}
