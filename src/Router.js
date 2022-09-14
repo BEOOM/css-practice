@@ -14,8 +14,9 @@ import ResponsiveSite from './pages/ResponsiveSite/ResponsiveSite';
 import CardHover from './pages/CardHover/CardHover';
 import FlipProductCard from './pages/FlipProductCard/FlipProductCard';
 import IconHover from './pages/IconHover/IconHover';
-import MagicLine from './pages/MagieLine/MagicLine';
+import MagicLine from './pages/MagicLine/MagicLine';
 import Border from './pages/BorderAnimation/Border';
+import LoginForm from './pages/LoginForm/LoginForm';
 
 const Router = () => {
   //
@@ -38,6 +39,7 @@ const Router = () => {
         <Route path="/IconHover" element={<IconHover />} />
         <Route path="/MagicLine" element={<MagicLine />} />
         <Route path="/Border" element={<Border />} />
+        <Route path="/LoginForm" element={<LoginForm />} />
       </Routes>
     </BrowserRouter>
   );

@@ -58,7 +58,7 @@
     transform: translateY(0) scale(1);
   }
   70% {
-    transform: translateY(298px) sacle(1);
+    transform: translateY(298px) scale(1);
   }
   100% {
     transform: translateY(298px) scale(0);

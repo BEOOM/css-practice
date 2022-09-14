@@ -68,6 +68,10 @@ const Main = () => {
             <P>Border Animation</P>
             <Img src="./CoverImage/BorderAnimation.png" />
           </Card>
+          <Card onClick={() => navigate('/LoginForm')}>
+            <P>Animated Login Form</P>
+            <Img src="./CoverImage/LoginForm.png" />
+          </Card>
         </CardWrapper>
       </Container>
     </Page>
